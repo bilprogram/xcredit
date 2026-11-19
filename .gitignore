@@ -1,0 +1,18 @@
+# Arquivos de sistema do macOS e Windows
+.DS_Store
+**/.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Apresentações pesadas e arquivos de trabalho brutos não utilizados na web
+*.pptx
+*.ppt
+*.docx
+
+# Ambientes, dependências e logs
+node_modules/
+.env
+.env.*
+*.log
+.vscode/
+.idea/

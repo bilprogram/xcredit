@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="26" fill="#1A2B4C"/>
+  <!-- Símbolo Oficial Telhado / Gable Metálico da Xcredit -->
+  <g transform="translate(16, 26) scale(0.182)" fill="none">
+    <!-- Haste Superior Exterior -->
+    <polygon points="263,7 284,7 527,249 501,273 263,35 25,273 0,249" fill="#FFFFFF" opacity="0.95"/>
+    <!-- Haste Superior Interior -->
+    <polygon points="263,35 501,273 475,299 263,88 51,299 25,273" fill="#CBD5E1" opacity="0.85"/>
+    <!-- Haste Inferior Esquerda -->
+    <polygon points="245,152 245,185 73,357 51,332" fill="#FFFFFF" opacity="0.92"/>
+    <polygon points="245,185 245,214 95,364 73,357" fill="#94A3B8" opacity="0.8"/>
+    <!-- Haste Inferior Direita -->
+    <polygon points="281,152 475,332 453,357 281,185" fill="#FFFFFF" opacity="0.92"/>
+    <polygon points="281,185 453,357 431,364 281,214" fill="#94A3B8" opacity="0.8"/>
+  </g>
+</svg>

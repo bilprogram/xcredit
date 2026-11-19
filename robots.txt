@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.xcredit.com.br/sitemap.xml
+

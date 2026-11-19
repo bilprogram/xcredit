@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Página não encontrada (404) | Xcredit — Correspondente Caixa Aqui</title>
+  <meta name="description" content="A página solicitada não foi encontrada no site oficial da Xcredit. Acesse a página inicial ou converse diretamente com nossa equipe." />
+  <meta name="robots" content="noindex, follow" />
+
+  <!-- Favicon Oficial Padronizado -->
+  <link rel="icon" type="image/svg+xml" href="/assets/marca/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/marca/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/marca/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/marca/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="/assets/marca/favicon.ico" />
+
+  <!-- Tipografia Institucional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --xcredit-navy: #1A2B4C;
+      --xcredit-orange: #F26522;
+      --xcredit-gold: #C9A24B;
+      --xcredit-bg-light: #F4F6F8;
+      --font-display: 'Montserrat', system-ui, -apple-system, sans-serif;
+      --font-body: 'Open Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--xcredit-bg-light);
+      color: #1A1A1A;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+    }
+
+    /* Cabeçalho Limpo */
+    .header-404 {
+      background-color: var(--xcredit-navy);
+      padding: 20px 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .header-404 img {
+      height: 38px;
+      width: auto;
+      display: block;
+    }
+
+    /* Conteúdo Principal */
+    .main-404 {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 24px;
+      text-align: center;
+    }
+
+    .card-404 {
+      max-width: 620px;
+      background: #FFFFFF;
+      border-radius: 12px;
+      padding: 56px 40px;
+      box-shadow: 0 16px 40px rgba(26, 43, 76, 0.08);
+      border: 1px solid rgba(26, 43, 76, 0.08);
+    }
+
+    .badge-404 {
+      display: inline-block;
+      font-family: var(--font-display);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--xcredit-orange);
+      background: rgba(242, 101, 34, 0.1);
+      padding: 6px 16px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+
+    .number-404 {
+      font-family: var(--font-display);
+      font-size: clamp(3.5rem, 8vw, 5.5rem);
+      font-weight: 800;
+      color: var(--xcredit-navy);
+      line-height: 1;
+      margin-bottom: 16px;
+      letter-spacing: -2px;
+    }
+
+    .title-404 {
+      font-family: var(--font-display);
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-weight: 700;
+      color: var(--xcredit-navy);
+      margin-bottom: 16px;
+      line-height: 1.25;
+    }
+
+    .desc-404 {
+      font-size: 1rem;
+      color: #4A5568;
+      margin-bottom: 36px;
+      line-height: 1.65;
+    }
+
+    .actions-404 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 28px;
+      background-color: var(--xcredit-orange);
+      color: #FFFFFF;
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--xcredit-navy);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 24px;
+      background-color: transparent;
+      color: var(--xcredit-navy);
+      border: 1.5px solid rgba(26, 43, 76, 0.25);
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.25s ease;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--xcredit-navy);
+      background-color: rgba(26, 43, 76, 0.05);
+    }
+
+    /* Rodapé Institucional */
+    .footer-404 {
+      background-color: var(--xcredit-navy);
+      color: #FFFFFF;
+      padding: 32px 24px;
+      text-align: center;
+      font-size: 0.82rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-404 p {
+      margin-bottom: 8px;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .footer-404 a {
+      color: var(--xcredit-orange);
+      text-decoration: none;
+    }
+
+    .footer-404 a:hover {
+      text-decoration: underline;
+    }
+
+    .disclaimer-404 {
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.55);
+      margin-top: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .card-404 {
+        padding: 40px 20px;
+      }
+      .actions-404 {
+        flex-direction: column;
+      }
+      .btn-primary, .btn-secondary {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho Institucional -->
+  <header class="header-404">
+    <a href="/" aria-label="Ir para a página inicial da Xcredit">
+      <img src="/assets/marca/xcredit-logo-oficial-completo.png" alt="Xcredit — Correspondente Caixa Aqui" width="180" height="38" />
+    </a>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="main-404">
+    <div class="card-404">
+      <span class="badge-404">Aviso de Navegação</span>
+      <div class="number-404">404</div>
+      <h1 class="title-404">Página não encontrada</h1>
+      <p class="desc-404">
+        O endereço que você tentou acessar não existe, foi renomeado ou está temporariamente indisponível. Utilize os atalhos abaixo para continuar sua navegação pelo site oficial da Xcredit.
+      </p>
+
+      <div class="actions-404">
+        <a href="/" class="btn-primary">Página Inicial</a>
+        <a href="/financiamento-steel-frame/" class="btn-secondary">Financiamento Steel Frame</a>
+        <a href="/solucoes-de-financiamento/" class="btn-secondary">Soluções de Crédito</a>
+        <a href="https://wa.me/551936816665" class="btn-secondary" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé Institucional -->
+  <footer class="footer-404">
+    <p><strong>Xcredit — Correspondente Caixa Aqui</strong> · Atuação desde 2014</p>
+    <p>R. Mal. Floriano, 169 – Centro, São José do Rio Pardo – SP · CEP 13720-075</p>
+    <p>Telefone / WhatsApp: <a href="https://wa.me/551936816665">(19) 3681-6665</a> · Instagram: <a href="https://instagram.com/caixaqui_xcredit" target="_blank" rel="noopener noreferrer">@caixaqui_xcredit</a></p>
+    <p class="disclaimer-404">
+      A análise e a aprovação de crédito são realizadas conforme os critérios e as regras vigentes da instituição financeira. A Xcredit é Correspondente Caixa Aqui, não uma agência bancária.
+    </p>
+  </footer>
+
+</body>
+</html>
+
